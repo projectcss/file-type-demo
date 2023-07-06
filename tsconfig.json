@@ -1,0 +1,11 @@
+{
+    "extends": "@tsconfig/recommended",
+    "compilerOptions": {
+      "module": "ESNext",
+      "jsx": "react",
+      "outDir": "dist",
+      "declaration": true,
+      "moduleResolution": "Node"
+    },
+    "allowSyntheticDefaultImports": false
+  }
